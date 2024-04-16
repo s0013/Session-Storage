@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Registration Form</title>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+<h2>Registration Form</h2>
+<form id="registrationForm">
+    <label for="fullName">Full Name:</label><br>
+    <input type="text" id="fullName" name="fullName" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="mobile">Mobile No:</label><br>
+    <input type="text" id="mobile" name="mobile" required><br>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br>
+    <div class="g-recaptcha" data-sitekey="6Lfjy7wpAAAAAAw0dxrJsMtE61bGOqp32Gxtmbas"></div><br>
+    <input type="submit" value="Submit">
+    <a href="login.html">If Already REGISTER then click on -> <br><span>Login</span></a><br>
+    <label>If not then register yourself first!!</label>
+   
+</form>
+<script src="script.js"></script>
+</body>
+</html>

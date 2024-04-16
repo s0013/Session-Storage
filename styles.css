@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    animation: glow 2s infinite alternate;
+    margin-top: 50px;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px rgba(0, 0, 255, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(9, 245, 245, 0.968);
+    }
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: rgba(9, 245, 245, 0.968);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+   
+}
+
+input[type="submit"]:hover {
+    background-color:rgba(0, 0, 255, 0.7);
+}
+
+input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+span {
+    color: rgba(9, 245, 245, 0.968); 
+    font-weight: bold; 
+    text-decoration: underline; 
+    cursor: pointer; 
+
+}
+
+span:hover {
+    color: blue; 
+}
+
